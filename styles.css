@@ -3,3 +3,41 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* css variable  */
+
+:root {
+    --primary-color: #00BFA6;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5 rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/** container **/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+
+    max-width: 600px;
+    margin: auto;
+
+}
