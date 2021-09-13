@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /* css variable  */
 
 :root {
@@ -41,3 +45,20 @@ body {
     margin: auto;
 
 }
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** nav **/
+
+.navigation {}
+
+.nav-brand {}
